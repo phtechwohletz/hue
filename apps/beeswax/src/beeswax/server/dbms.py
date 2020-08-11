@@ -1121,7 +1121,7 @@ class HiveServer2Dbms(object):
     if handle:
       rows = self.fetch(handle, rows=1000).rows()
       self.close(handle)
-
+    {1:1}
     return rows
 
 
